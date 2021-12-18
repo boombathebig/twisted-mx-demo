@@ -1,7 +1,11 @@
+* {
+    overflow:hidden; 
+}
 body {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;    
+    justify-content: flex-end;   
+    margin: 0;
 }
 
 .header{
@@ -9,6 +13,7 @@ body {
     flex-direction: column;
     background-color: #1F2237;
     flex: auto;
+    padding: 0 0 50px 0;
 }
 
 .top-bar{
@@ -21,7 +26,6 @@ body {
 .header-logo{
     color:#F9FAF8;
     font-size: 24px;
-    font-family: ;
 }
 
 .header-link-items{
@@ -34,11 +38,12 @@ body {
 .header-contents{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 50px 0 0 0;
 }
+
 .header-contents-left{
-    flex:auto;
-    
+    width: 400px;
 }
 .header-title{
     font-size: 48px;
@@ -48,8 +53,60 @@ body {
 
 .header-secondary-text{
     color: #F9FAF8;
+    flex-wrap: wrap;
 }
 
 .header-img{
-    flex: auto;
+    width: 35%;
+    height: 35%;
+}
+
+.sign-up-button{
+    padding: 5px 20px 5px 20px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    border-radius: 4px;  
+}
+
+/* End Header / Begin images */
+
+.body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-images{
+    display: flex;
+}
+.body-image-items{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.body-pictures{
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 6px;
+}
+#information-header{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+/* End Images / Begin Quote */
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote{
+    width: 47%;
 }
