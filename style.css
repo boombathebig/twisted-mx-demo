@@ -121,11 +121,18 @@ body {
 .call{
     display: flex;
     background-color: #3882F6;
-    width: 600px;
+    width: 75%;
     height: 250px;
     align-self: center;
     flex-direction: row;
-    align-content:
+    flex:1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .call-title{
@@ -137,6 +144,7 @@ body {
     font-size: 12px;
     color: #E5E7EB;
     margin: -10px 0 0 0;
+
 }
 
 .call-button{
@@ -146,4 +154,15 @@ body {
     height: fit-content;
     color: #E5E7EB;
     border-style: solid;
+    padding: 4px 8px 4px 8px; 
 }
+
+/* End Call to Action / Begin footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2237;
+    color: #E5E7EB;
+    padding: 30px 0 30px 0;
